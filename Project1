@@ -1,0 +1,308 @@
+# File: Project1.py
+# Student: Juliana Vargas 
+# UT EID: jjv2263
+# Course Name: CS303E
+# 
+# Date Created: 10/07/2021
+# Date Last Modified: 10/08/2021
+# Description of Program: User enters a month. The program then prints out the calendar for the month. If user enters a number that is not a month, they will get an error. 
+# Getting Month
+month = int(input("Enter the number of a month [1..12]: "))
+# Printing January's calendar if 1 is enetered 
+LIMIT = 8 
+if (month == 1): 
+    print ()
+    print ("    January 2022")
+    print (" Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')
+        break
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+        break
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+        break
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+        break
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+        break
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+        break
+    print ()  
+# Printing February's calendar if 2 is entered 
+if (month == 2):
+    print ()
+    print ("    February 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("    ", end = '')
+for a in range(1, LIMIT):
+    print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 6):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(6,13):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(13,20):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(20,27):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(27,29):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing March's calendar if 3 is entered 
+if (month == 3):
+    print ()
+    print ("    March 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing April's calendar if 4 is entered 
+if (month == 4):
+    print ()
+    print ("    April 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing May's calendar if 5 is entered 
+if (month == 5):
+    print ()
+    print ("    May 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing June's calendar if 6 is entered 
+if (month == 6):
+    print ()
+    print ("    June 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing July's calendar if 7 is entered 
+if (month == 7):
+    print ()
+    print ("    July 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing August's calendar if 8 is entered 
+if (month == 8):
+    print ()
+    print ("    August 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing September's calendar if 9 is entered 
+if (month == 9):
+    print ()
+    print ("    September 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing October's calendar if 10 is entered 
+if (month == 10):
+    print ()
+    print ("    October 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing November's calendar if 11 is entered 
+if (month == 11):
+    print ()
+    print ("    November 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Printing December's calendar if 12 is entered 
+if (month == 12):
+    print ()
+    print ("    December 2022")
+    print ("Su Mo Tu We Th Fr Sa")
+    print("                  ", end = '')
+    for a in range(1, 2):
+        print( format(a, "3d"), end = '')  
+    print ()
+    for b in range(1*1+1, 9):
+        print( format(b, "3d"), end = '')
+    print ()
+    for c in range(9,16):
+        print( format(c, "3d"), end = '')
+    print ()
+    for d in range(16,23):
+        print( format(d,"3d"), end = '')
+    print ()
+    for e in range(23,30):
+        print( format(e,"3d"), end = '')
+    print ()
+    for f in range(30,32):
+        print( format(f,"3d"), end = '')
+    print ()
+# Validating input is between 1-12
+else:
+    print("Month must be between 1 and 12. Try again!")
